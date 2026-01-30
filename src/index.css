@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+
+.markdown-content table,
+.md-table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 8px 0;
+}
+
+.markdown-content th,
+.markdown-content td,
+.md-th,
+.md-td {
+  padding: 8px 12px;
+  text-align: center;
+  border-bottom: 1px solid rgba(0,0,0,0.08);
+}
+
+.markdown-content th,
+.md-th {
+  background: #f5f7fa;
+  font-weight: 600;
+}
+
+.markdown-content tr:nth-child(even) { background: #fbfbfc; }
